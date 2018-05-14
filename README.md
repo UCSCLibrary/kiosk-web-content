@@ -1,0 +1,1 @@
+These are the web pages used by the kiosk chrome app.

@@ -1,0 +1,160 @@
+/* Global Styles */
+
+body {
+	font-family: arial,helvetica,verdana;
+}
+
+/* Layout */
+.navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	margin: 0;
+	padding: 5px;
+}
+
+.content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 79.5%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation Styles */
+.navbutton {
+	background: #11789C;
+	border: 1px solid ;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 8px 20px;
+	cursor: pointer;
+	/*width: 200px;*/
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+#room444 {
+	width: 100%;
+}
+
+.navbutton:hover {
+	opacity: 0.9;
+}
+
+/* News Styles */
+
+.iframe-content .news-items .news-item {
+    display: inline-block;
+    width: 100%;
+	background-color: #eee;
+	margin-bottom: 1px;
+	padding: 12px 12px 12px 0;
+}
+
+.iframe-content .news-items h1 {
+	font-size: 16px;
+}
+
+.iframe-content .news-items h1 a {
+	color: #11789C;
+}
+
+.iframe-content .news-items h1 a:visited {
+	color: #11789C;
+}
+
+.iframe-content .news-items h1 a:hover {
+	color: #2565A2;
+}
+
+.iframe-content .news-items h2 {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+/* Wayfinder Styles */
+
+.wayfinder-nav {
+	width: 30%;
+}
+
+.wayfinder-nav ul {
+	list-style-type: none;
+	padding: 0 10px;
+	margin: 0 10px 0 0;
+}
+
+.wayfinder-nav ul li span.menu-item, .wayfinder-nav ul li.clearmap {
+	cursor: pointer;
+	background-color: #ddd;
+	padding: 6px;
+	margin: 0 0 1px 0;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+}
+
+.wayfinder-nav ul li.clearmap {
+	margin-bottom: 6px;
+}
+
+.wayfinder-nav ul.submenu {
+	padding: 6px 0 10px 0;
+}
+
+.wayfinder-nav ul.submenu li {
+	font-weight: normal;
+	font-size: 13px;
+	cursor: pointer;
+	padding: 2px 0;
+}
+
+.wayfinder-nav ul.submenu li:hover {
+	text-decoration: underline;
+}
+
+.wayfinder-content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 69.5%;
+	margin: 0;
+	padding: 0;
+}
+
+#mchmap {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.leaflet-popup-content-wrapper {
+	text-align: center;
+}
+
+.leaflet-popup-content {
+	margin: 4px 6px;
+}
+
+/* Iframe Styles */
+
+iframe {
+	height: 100%;
+	width: 100%;
+	border: none;
+}
