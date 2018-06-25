@@ -13,7 +13,7 @@ $(document).ready(function(){
 	
 	$('.collA').click(function() {
 		var collA = [
-		"General Works (A)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	// html of popup
+		"General Works (A)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	// html of popup
 			[
 			mapHeight - 795, 	// distance of endpoint from top
 			289,				// distance of endpoint from left
@@ -32,7 +32,7 @@ $(document).ready(function(){
 	
 	$('.collB').click(function() {
 		var collB = [
-		"Philosophy, Psychology,<br>and Religion (B)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+		"Philosophy, Psychology,<br>and Religion (B)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 			mapHeight - 830,353,mapHeight - 735,175,mapHeight - 646,430,mapHeight - 1239,430,				
 			mapOriginLat,		
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	
 	$('.collC').click(function() {
 		var collC = [
-			"History (C,D,E, and F)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"History (C,D,E, and F)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 742,724,mapHeight - 630,480,mapHeight - 646,430,mapHeight - 1239,430,				
 				mapOriginLat,		
@@ -56,7 +56,7 @@ $(document).ready(function(){
 	
 	$('.collGN').click(function() {
 		var collGN = [
-			"Anthropology and Folklore (GN - GV)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Anthropology and Folklore (GN - GV)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 778,743,mapHeight - 766,775,mapHeight - 630,480,mapHeight - 646,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -68,7 +68,7 @@ $(document).ready(function(){
 	
 	$('.collH').click(function() {
 		var collH = [
-			"Social Sciences (H)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Social Sciences (H)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 350,285,mapHeight - 292,176,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -80,7 +80,7 @@ $(document).ready(function(){
 	
 	$('.collJ').click(function() {
 		var collJ = [
-			"Political Science (J)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Political Science (J)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 263,640,mapHeight - 187,482,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -92,7 +92,7 @@ $(document).ready(function(){
 	
 	$('.collK').click(function() {
 		var collK = [
-			"Law (K)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Law (K)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 263,640,mapHeight - 187,482,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -104,7 +104,7 @@ $(document).ready(function(){
 	
 	$('.collL').click(function() {
 		var collL = [
-			"Education (L)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Education (L)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 397,376,mapHeight - 292,176,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -116,7 +116,7 @@ $(document).ready(function(){
 	
 	$('.collM').click(function() {
 		var collM = [
-			"Music (M)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Music (M)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 139,629,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -128,7 +128,7 @@ $(document).ready(function(){
 	
 	$('.collN').click(function() {
 		var collN = [
-			"Fine Arts (N)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Fine Arts (N)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 161,793,mapHeight - 118,688,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -140,7 +140,7 @@ $(document).ready(function(){
 	
 	$('.collP').click(function() {
 		var collP = [
-			"Language and Literature (P)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Language and Literature (P)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 298,714,mapHeight - 187,482,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -152,7 +152,7 @@ $(document).ready(function(){
 	
 	$('.collTR').click(function() {
 		var collTR = [
-			"Photography (TR)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Photography (TR)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 239,814,mapHeight - 208,900,mapHeight - 118,688,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -164,7 +164,7 @@ $(document).ready(function(){
 	
 	$('.collZ').click(function() {
 		var collZ = [
-			"Bibliography<br>and Library Science (Z)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 	
+			"Bibliography<br>and Library Science (Z)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 	
 			[
 				mapHeight - 218,924,mapHeight - 118,688,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -176,7 +176,7 @@ $(document).ready(function(){
 	
 	$('.collOV').click(function() {
 		var collOV = [
-			"Oversize<br><a href='http://cruzcat.ucsc.edu/'>Search</a>",
+			"Oversize<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>",
 			[
 				mapHeight - 336,798,mapHeight - 187,483,mapHeight - 204,430,mapHeight - 1239,430,				
 				mapOriginLat,		
@@ -188,7 +188,7 @@ $(document).ready(function(){
 	
 	$('.collCC').click(function() {
 		var collCC = [
-			"Curriculum Collection<br><a href='http://cruzcat.ucsc.edu/'>Search</a>",
+			"Curriculum Collection<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>",
 			[
 				mapHeight - 252,1007,mapHeight - 118,688,mapHeight - 204,430,mapHeight - 1239,430,				
 				mapOriginLat,		
@@ -200,7 +200,7 @@ $(document).ready(function(){
 	
 	$('.collGD').click(function() {
 		var collGD = [
-			"Government Documents<br><a href='http://cruzcat.ucsc.edu/'>Search</a>",
+			"Government Documents<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>",
 			[
 				mapHeight - 1305,523,mapHeight - 1258,657,				
 				mapOriginLat,		
@@ -212,7 +212,7 @@ $(document).ready(function(){
 	
 	$('.collRF').click(function() {
 		var collRF = [
-			"Reference Books<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 		// html of popup
+			"Reference Books<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 		// html of popup
 			[
 				mapHeight - 1305,523,mapHeight - 1258,657,
 				mapOriginLat,		
@@ -224,7 +224,7 @@ $(document).ready(function(){
 	
 	$('.collRR').click(function() {
 		var collRR = [
-			"Ready Reference<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 		// html of popup
+			"Ready Reference<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 		// html of popup
 			[
 				mapHeight - 1263,842,mapHeight - 1201,706,
 				mapOriginLat,		
@@ -236,7 +236,7 @@ $(document).ready(function(){
 	
 	$('.collNP').click(function() {
 		var collNP = [
-			"Newspapers<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 		// html of popup
+			"Newspapers<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 		// html of popup
 			[
 				mapHeight - 1283,524,mapHeight - 1236,657,
 				mapOriginLat,		
@@ -248,7 +248,7 @@ $(document).ready(function(){
 	
 	$('.collMF').click(function() {
 		var collMF = [
-			"Microforms<br>(Located at the Circulation Desk)<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 		// html of popup
+			"Microforms<br>(Located at the Circulation Desk)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 		// html of popup
 			[
 				mapHeight - 1175,876,
 				mapOriginLat,		
@@ -260,7 +260,7 @@ $(document).ready(function(){
 	
 	$('.collSP').click(function() {
 		var collSP = [
-			"Special Collections<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 		// html of popup
+			"Special Collections<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 		// html of popup
 			[
 				mapHeight - 553,721,mapHeight - 646,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -272,7 +272,7 @@ $(document).ready(function(){
 	
 	$('.collAV').click(function() {
 		var collAV = [
-			"Audio and Video<br><a href='http://cruzcat.ucsc.edu/'>Search</a>", 		// html of popup
+			"Audio and Video (Media Desk)<br><a href='https://ucsc.primo.exlibrisgroup.com/discovery/search?sortby=rank&vid=01CDL_SCR_INST:USCS&lang=en'>Search</a>", 		// html of popup
 			[
 				mapHeight - 2565,603,mapHeight - 2431,324,mapHeight - 2395,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -310,7 +310,7 @@ $(document).ready(function(){
 
 	$('.infComNP').click(function() {
 		var infComNP = [
-			"Information Commons<br>North Printers<br><a href='https://library.ucsc.edu/services/computing/printing-and-computing'>Help</a>", 		// html of popup
+			"Information Commons North<br>Printers and Scanners<br><a href='https://library.ucsc.edu/services/computing/printing-and-computing'>Help</a>", 		// html of popup
 			[
 				mapHeight - 1228,861,mapHeight - 1248,804,
 				mapOriginLat,		
@@ -318,6 +318,18 @@ $(document).ready(function(){
 			]
 		];
 		drawLine(infComNP);
+	});
+	
+	$('.obScanner').click(function() {
+		var obScanner = [
+			"Open Book Scanner",
+			[
+				mapHeight - 1152,694,
+				mapOriginLat,		
+				mapOriginLong
+			]
+		];
+		drawLine(obScanner);
 	});
 
 	$('.infComSP').click(function() {
@@ -358,7 +370,7 @@ $(document).ready(function(){
 
 	$('.copy3').click(function() {
 		var copy3 = [
-			"Audio and Video<br><a href='https://library.ucsc.edu/services/computing/printing-and-computing'>Help</a>", 		// html of popup
+			"3rd Floor Copiers<br><a href='https://library.ucsc.edu/services/computing/printing-and-computing'>Help</a>", 		// html of popup
 			[
 				mapHeight - 670,364,mapHeight - 646,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -382,7 +394,7 @@ $(document).ready(function(){
 
 	$('.dscL').click(function() {
 		var dscL = [
-			"Digital Scholarship<br>Commons Lab<br><a href='http://calendar.library.ucsc.edu/booking/dsc-labs'>Reserve</a>", 		// html of popup
+			"Digital Scholarship<br>Commons Lab<br><a href='https://guides.library.ucsc.edu/DSC/DSClab'>More...</a>", 		// html of popup
 			[
 				mapHeight - 2610,449,mapHeight - 2557,587,mapHeight - 2431,324,mapHeight - 2395,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -420,7 +432,7 @@ $(document).ready(function(){
 	
 	$('.dscD').click(function() {
 		var dscD = [
-			"DSC Service Desk<br><a href='https://guides.library.ucsc.edu/mediadesk'>More...</a>",
+			"Media Desk<br><a href='https://guides.library.ucsc.edu/mediadesk'>More...</a>",
 			[
 				mapHeight - 2561,595,mapHeight - 2431,324,mapHeight - 2395,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -428,18 +440,6 @@ $(document).ready(function(){
 			]
 		];
 		drawLine(dscD);
-	});
-	
-	$('.dscL').click(function() {
-		var dscL = [
-			"DSC Lab<br><a href='http://calendar.library.ucsc.edu/booking/dsc-labs'>Help</a>",
-			[
-				mapHeight - 2610,449,mapHeight - 2557,587,mapHeight - 2431,324,mapHeight - 2395,430,mapHeight - 1239,430,
-				mapOriginLat,		
-				mapOriginLong
-			]
-		];
-		drawLine(dscL);
 	});
 	
 	$('.dscV').click(function() {
@@ -981,18 +981,6 @@ $(document).ready(function(){
 		drawLine(compD);
 	});
 
-	$('.dscD').click(function() {
-		var dscD = [
-			"Digital<br>Scholarship Commons<br>Service Desk<br><a href='https://guides.library.ucsc.edu/mediadesk'>More...</a>",
-			[
-				mapHeight - 2561,595,mapHeight - 2431,324,mapHeight - 2395,430,mapHeight - 1239,430,
-				mapOriginLat,		
-				mapOriginLong
-			]
-		];
-		drawLine(dscD);
-	});
-
 	$('.refD').click(function() {
 		var refD = [
 			"Reference Help Desk<br><a href='https://guides.library.ucsc.edu/ask-a-librarian'>Ask a Librarian</a>",
@@ -1009,7 +997,7 @@ $(document).ready(function(){
 	
 	$('.restGI').click(function() {
 		var restGI = [
-			"Gender Inclusive<br>Restroom",
+			"Gender Neutral<br>Restroom",
 			[
 				mapHeight - 2419,574,mapHeight - 2377,483,mapHeight - 2395,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -1095,7 +1083,7 @@ $(document).ready(function(){
 	
 	$('.readRE').click(function() {
 		var readRE = [
-			"Second Floor<br>East Reading Room",
+			"Second Floor<br>Quiet Study",
 			[
 				mapHeight - 1518,534,mapHeight - 1391,285,mapHeight - 1258,657,
 				mapOriginLat,		
@@ -1143,7 +1131,7 @@ $(document).ready(function(){
 	
 	$('.studyR3').click(function() {
 		var studyR3 = [
-			"Third Floor Study Rooms<br><a href='http://calendar.library.ucsc.edu/booking/mch3'>Reserve</a>",
+			"Third Floor<br>Group Study Rooms<br><a href='http://calendar.library.ucsc.edu/booking/mch3'>Reserve</a>",
 			[
 				mapHeight - 856,707,mapHeight - 801,853,mapHeight - 630,480,mapHeight - 646,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -1155,7 +1143,7 @@ $(document).ready(function(){
 	
 	$('.studyH3').click(function() {
 		var studyH3 = [
-			"Third Floor Study Hall",
+			"Third Floor Quiet Study",
 			[
 				mapHeight - 832,348,mapHeight - 735,175,mapHeight - 646,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -1203,7 +1191,7 @@ $(document).ready(function(){
 	
 	$('.studyQ4').click(function() {
 		var studyQ4 = [
-			"Fourth Floor<br>Quiet Study Area",
+			"Fourth Floor<br>Quiet Study Room 4286",
 			[
 				mapHeight - 304,973,mapHeight - 355,841,mapHeight - 187,483,mapHeight - 204,430,mapHeight - 1239,430,
 				mapOriginLat,		
@@ -1211,6 +1199,18 @@ $(document).ready(function(){
 			]
 		];
 		drawLine(studyQ4);
+	});
+	
+	$('.r4274').click(function() {
+		var r4274 = [
+			"Conference Room 4274",
+			[
+				mapHeight - 275,1049,mapHeight - 355,841,mapHeight - 187,483,mapHeight - 204,430,mapHeight - 1239,430,
+				mapOriginLat,		
+				mapOriginLong
+			]
+		];
+		drawLine(r4274);
 	});
 	
 	$('.studyR4').click(function() {

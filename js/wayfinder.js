@@ -2,12 +2,12 @@
 var mapName = "mchmap";
 var mapHeight = 2753; // height of the map in pixels
 var mapWidth = 1332; // width of the map in pixels
-var mapPath = "../img/mchenry-new.png"; //The path to the map file
+var mapPath = "../img/mchenry-new.png?5"; //The path to the map file
 /* Set up the origin point popup. This is where all the paths will be drawn from. */
 var mapOriginLat = 1129; // The distance of the origin point from the top of the map in pixels
 var mapOriginLat = (mapHeight - mapOriginLat); //We subtract this from the height because leaflet measures from the bottom
 var mapOriginLong = 768; // The distance of the origin point from the left of the map
-var mapOriginContent = "LIBRARY ENTRANCE"; // The text of the origin point popup
+var mapOriginContent = "LIBRARY<br>ENTRANCE"; // The text of the origin point popup
 /* Set options for the polyline. */
 var polylineOptions = {
 	color: 'red',
@@ -20,7 +20,8 @@ var polylineOptions = {
 /* Give the map a name and specify the coordinate system. CRS stand for coordinate reference system. It allows us to define our own coordinates for this map. Details at: http://leafletjs.com/examples/crs-simple/crs-simple.html. */
 var map = L.map(mapName, {
 	crs: L.CRS.Simple,
-	minZoom: -5
+	minZoom: -1.55,
+	maxZoom: 1.05
 });
 
 /* Set the bounds variable to determine the size of the coordinate system. Here we are using pixels, matching the coordinate system to the pixel dimensions of the McHenry map image. */
@@ -57,7 +58,7 @@ map.attributionControl.setPrefix('');
 		map.removeLayer(locationLayer);
 	};
 
-/* Create the makePath function. This will be called in the click functions below. The locationLayer option uses the locationPoints defined in the click functions. The LocationPop option gets the values defined earlier. The locationLayer option uses getBounds to fit the map display to the area of the popups and adds some padding with .pad. */
+/* Create the makePath function. This will be called in the click functions in locations.js. The locationLayer option uses the locationPoints defined in the click functions. The LocationPop option gets the values defined earlier. The locationLayer option uses getBounds to fit the map display to the area of the popups and adds some padding with .pad. */
 	$.fn.makePath = function(){ 
 		map.addLayer(locationLayer);	
 		map.addLayer(locationPop);	
